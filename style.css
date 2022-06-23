@@ -1,0 +1,63 @@
+body {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  text-align: right;
+  font-size: 52px;
+  margin: 0;
+  padding: 22px 10px 0 0;
+}
+
+.result {
+  background-color:#49474F;
+  border: 1px solid black;
+  border-radius: 15px 15px 0 0;
+  height: 80px;
+}
+
+.buttons {
+  display: grid;
+  grid-template-areas:
+    "ac plu_min persent divide"
+    "seven eith nine mult"
+    "four five six minus"
+    "one two three plus"
+    "zero zero comma equals";
+}
+
+.calc_body {
+  width: 248px;
+  height: 394px;
+}
+
+.btn {
+  border: 1px solid black;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  background-color: #5C5C62;
+  user-select: none;
+  cursor: pointer;
+  font-size: 1.3rem;
+}
+
+.bt_orange {
+  background-color: #FF950C;
+}
+
+.bt_darckgrey {
+  background-color:#47454C;
+}
+
+.zero {
+  grid-area: zero;
+  width: 122px;
+  border-radius: 0 0 0 15px;
+}
+
+.equals {
+  border-radius: 0 0 15px 0;
+}
